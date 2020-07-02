@@ -1,0 +1,10 @@
+# Pegue o quanto de reais existe e converta para dollars - Date: 01/07/2020;
+print('==============================')
+print('<-- Conversion of Sadness -->')
+print('==============================')
+money = float(input('How much money you have R$: '))
+print('\n\n============================')
+print('<-- Conversion to Dollars -->')
+print('==============================')
+print('{} BRL for dollars is: {} USD'.format(money, money / 5.32))
+print('===================================')

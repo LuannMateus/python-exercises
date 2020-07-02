@@ -1,0 +1,11 @@
+print('=========================')
+print('<-- Calculating the area ->')
+print('===========================')
+compri = float(input('How many meters long is the wall: '))
+larg = float(input('How many meters wide is the wall: '))
+area = compri * larg
+print('====================')
+print('<-- Results -->')
+print('===================')
+print('To paint a wall of {}m² area'.format(area), end=' ')
+print('will be {} liters of ink'.format(area / 2))
