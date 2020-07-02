@@ -1,0 +1,10 @@
+print('=' * 30)
+print('<-- Degrees Celsius ̣to Fahrenheit -->')
+print('=' * 30)
+graus = float(input('Degrees Celsius: '))
+conversion = graus * 9 / 5 + 32
+print('=' * 20)
+print('<-- Conversion -->')
+print('-' * 20)
+print('{}ºC to {}ºF'.format(graus, conversion))
+print('=' * 20)
