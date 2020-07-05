@@ -1,0 +1,8 @@
+print('=' * 30)
+print('<-- Playing with Split method -->')
+print('=' * 30)
+name = str(input('Enter with a name: '))
+tot = len(name)
+print()
+firstandlast = name.split()
+print('First name: {}'.format(firstandlast[0]))

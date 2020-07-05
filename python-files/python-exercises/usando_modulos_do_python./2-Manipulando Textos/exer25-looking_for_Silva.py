@@ -1,0 +1,6 @@
+print('=' * 20)
+print('<-- Playing with strings methods -->')
+print('=' * 20)
+name = str(input('Enter with a name: ')).strip()
+print('There is SILVA in the name: {}'.format('SILVA' in name.upper()))
+print('-' * 30)

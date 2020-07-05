@@ -1,0 +1,8 @@
+print('=' * 30)
+print('<-- Playing with Find -->')
+print('=' * 30)
+city = str(input('Enter a city name: '))
+first = city.split()
+print('A string {} começa com SANTO: '.format(city), end='')
+print('SANTO' == first[0].upper())
+print('-' * 30)
