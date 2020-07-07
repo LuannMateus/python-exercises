@@ -1,4 +1,4 @@
-print('=' * 30)
+print('\033[1;35m=' * 30)
 print('<-- Degrees Celsius ̣to Fahrenheit -->')
 print('=' * 30)
 graus = float(input('Degrees Celsius: '))

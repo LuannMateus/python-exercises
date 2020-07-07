@@ -1,9 +1,12 @@
-print('===================================')
+from os import system
+
+print('\033[31m=-=' * 15)
 print('<-- Enter the number of meters --> ')
-print('===================================')
+print('=-=' * 15)
 meters = float(input('How many meters: '))
-print('\n=================================')
-print('        <- Conversion -->')
+system('clear')
+print('\033[1;37m=================================')
+print('\t<-- Conversion -->')
 print('=================================')
 print('{} meters for Km: {}km'.format(meters, meters / 1000))
 print('{} meters for Hm: {}hm'.format(meters, meters / 100))

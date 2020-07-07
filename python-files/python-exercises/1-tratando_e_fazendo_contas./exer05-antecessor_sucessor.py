@@ -1,9 +1,15 @@
+from os import system
+
+print('\033[1;35m')
 print('--------------------------')
 print('<-- Type the number -->')
 print('--------------------------')
+print('\033[1;31m')
 number = int(input('Digite um número inteiro: '))
+system('clear')
 print('-----------------------------------')
 print('<-- Sucessor and Antecessor -->')
 print('-----------------------------------')
+print('\033[1;37m')
 print('Sucessor do number {}: {}'.format(number, number + 1))
 print('Antecessor do number {}: {}'.format(number, number - 1))

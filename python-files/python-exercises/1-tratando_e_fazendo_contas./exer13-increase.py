@@ -1,4 +1,4 @@
-print('============================')
+print('\033[1;37m============================')
 print('<-- Salary increase Day -->')
 print('============================')
 salary = float(input('Enter your monthly salary R$: '))

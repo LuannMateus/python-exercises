@@ -1,19 +1,36 @@
 from random import randint
 from time import sleep
+from os import system
 
-print('-=-' * 15)
-print('    <-- Thinking a number.... -->')
-print('-=-' * 15)
+color = {
+    'clear': '\033[m',
+    'yellow': '\033[33m',
+    'blue': '\033[34m',
+    'red': '\033[1;31m',
+    'blueandwhite': '\033[1;34;40m'
+}
+
+print('{}-=-{}'.format(color['yellow'], color['clear']) * 15)
+print('\t<-- {}Thinking a number....{} -->'.format(color['red'], color['clear']))
+print('{}-=-{}'.format(color['yellow'], color['clear']) * 15)
 
 gues = randint(0, 5)
 number = int(input('Make a guess in a number between 0 and 5: '))
 
-print('-' * 20)
+system('clear')
+sleep(0.5)
+print('  <-- Processing. -->')
+sleep(0.5)
+system('clear')
+print('  <-- Processing.. -->')
+sleep(0.5)
+system('clear')
 print('  <-- Processing... -->')
-print('-' * 20)
-sleep(3)
+sleep(0.5)
+system('clear')
+
 if number == gues:
-    print('OHHHHHHH NOOOO!!!YOUUU WINN!!!! IMPOSSIBELLEE!')
+    print('{}OHHHHHHH NOOOO!!!YOUUU WINN!!!! IMPOSSIBELLEE!'.format(color['red']))
 else:
-    print('I THINK IN {0} NOT IN {1}!!HAHAHAHA I WINN!!!'.format(number, gues))
+    print('{0}I THINK IN {1} NOT IN {2}!!HAHAHAHA I WINN!!!'.format(color['blueandwhite'], gues, number))
 print('-' * 30)

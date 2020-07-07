@@ -1,10 +1,15 @@
+from os import system
+
+print('\033[1;37m')
 print('-----------------------')
 print('<-- Type the number -->')
 print('-----------------------')
-number = int(input('Type the number: '))
+number = int(input('\033[1;32mType the number: '))
+system('clear')
+print('\033[1;33m', end='')
 print('-------------------------------')
 print('<-- Dobro, Triplo and raiz² -->')
 print('-------------------------------')
-print('Dobro no number {}: {}'.format(number, number * 2))
+print('\033[1;37mDobro no number {}: {}'.format(number, number * 2))
 print('Triplo do number {}: {}'.format(number, number * 3))
 print('Raiz quadrada do number {}: {:.2f}'.format(number, number**(1/2)))

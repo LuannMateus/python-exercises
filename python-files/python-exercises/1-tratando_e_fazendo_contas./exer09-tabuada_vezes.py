@@ -1,12 +1,15 @@
 # tabuada de Vezes
-print('===============================')
+from os import system
+
+print('\033[1;32m===============================')
 print('<-- Times table of Happines -->')
 print('===============================')
 number = int(input('Enter the number: '))
-print('=' * 30)
+system('clear')
+print('\033[1;31m=' * 30)
 print('<-- Showing Times Tables -->')
 print('='*30)
-print('{} x  1  = {}'.format(number, number * 1))
+print('\033[36m{} x  1  = {}'.format(number, number * 1))
 print('{} x  2  = {}'.format(number, number * 2))
 print('{} x  3  = {}'.format(number, number * 3))
 print('{} x  4  = {}'.format(number, number * 4))
