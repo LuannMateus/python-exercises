@@ -7,6 +7,7 @@ reason = int(input('Enter with a reason: '))
 print('{}-{}='.format('\033[1;31m', '\033[1;37m') * 15)
 
 for c in range(0, 10):
-    print('{:^30}'.format(first))
+    print('{} -> '.format(first), end='')
     first += reason
+print('END')
 print('{}-{}='.format('\033[1;31m', '\033[1;37m') * 15)
