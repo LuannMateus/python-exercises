@@ -74,4 +74,3 @@ else:
     print('{}Computer:Shit!!'.format(colors['red']))
     print('{}Player:Hehe, I am amazing!!'.format(colors['green']))
     print('{}Computer:Its just Luck, you human bug'.format(colors['red']))
-print('END GAME'.center)
