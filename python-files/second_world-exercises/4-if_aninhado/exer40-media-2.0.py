@@ -11,10 +11,10 @@ m = (n1 + n2) / 2
 print('-' * 15)
 print('<-- Status -->')
 print('-' * 15)
-if m < 5:  
+if m < 5:
     print('\033[1;31m- Avarege: {}\n- Reproved!\033[m'.format(m))
 elif m >= 5 and m < 7:
     print('\033[1;33m- Avarege: {}\n- Recovery!\033[m'.format(m))
 else:
     print('\033[1;32m- Avarege: {}\n- Approved!!!\033[m'.format(m))
-print('-=-' * 15) 
+print('-=-' * 15)

@@ -5,9 +5,9 @@ colors = {
     'white': '\033[1;37m',
 }
 
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20)
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 print('{:^40}'.format('BANK'))
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20)
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 sacar = float(input('Digite o valor: '))
 
 cedulas = [1, 10, 20, 50]

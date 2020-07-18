@@ -1,3 +1,5 @@
+from random import randint
+
 # Colors
 colors = {
     'red': '\033[1;31m',
@@ -6,16 +8,11 @@ colors = {
 }
 
 print('{}-{}='.format(colors['red'], colors['white']) * 20)
-print('{:^40}'.format('999 IS A FLAG'))
+print('{:^40}'.format('Random numbers'))
 print('{}-{}='.format(colors['red'], colors['white']) * 20)
+n = tuple(randint(0, 10) for c in range(5))
+print(f'Os números sorteados são: {n}', end=' ')
+print(end='\n')
 
-Sum = cont = 0
-while True:
-    n = int(input('Enter with the number: '))
-    if n != 999:
-        Sum += n
-        cont += 1
-    else:
-        break
 print('{}-{}-'.format(colors['red'], colors['white']) * 20)
-print(f'- Total Sum between all numbers: {Sum}')
+print(f'- The biggest number: {max(n)}\n- The smallest number {min(n)}')

@@ -21,6 +21,6 @@ elif age < 20:
     print('- Age: {}\n- Category: Junior'.format(age))
 elif age < 21:
     print('- Age: {}\n- Category: Sênior'.format(age))
-else: 
+else:
     print('- Age: {}\n- Category: Master'.format(age))
 print('-=-' * 15)

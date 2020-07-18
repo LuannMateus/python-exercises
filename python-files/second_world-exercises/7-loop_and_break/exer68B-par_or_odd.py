@@ -9,9 +9,9 @@ colors = {
 
 cont = 0
 
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20)
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 print('{:^40}'.format('Guess what the GAME MASTER chose'))
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20) 
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 
 while True:
 
@@ -19,7 +19,7 @@ while True:
     computer = randint(0, 1)
 
     player = str(input('Chosen PAIR OR ODD: ')).strip().upper()
-    print('{}-{}-'.format(colors['red'],colors['white'] ) * 20) 
+    print('{}-{}-'.format(colors['red'], colors['white']) * 20)
 # Game logic;
     if computer == 0:
         computerR = 'PAIR'
@@ -36,6 +36,6 @@ while True:
         cont += 1
         print('THE PLAYER WIN')
 
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20) 
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 print(f'- Total of consecutives victories: {cont}')
-print('{}-{}-'.format(colors['red'],colors['white'] ) * 20) 
+print('{}-{}-'.format(colors['red'], colors['white']) * 20)

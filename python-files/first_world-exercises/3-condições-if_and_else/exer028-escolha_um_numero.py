@@ -7,11 +7,11 @@ color = {
     'yellow': '\033[33m',
     'blue': '\033[34m',
     'red': '\033[1;31m',
-    'blueandwhite': '\033[1;34;40m'
+    'b_w': '\033[1;34;40m'
 }
 
 print('{}-=-{}'.format(color['yellow'], color['clear']) * 15)
-print('\t<-- {}Thinking a number....{} -->'.format(color['red'], color['clear']))
+print(f'\t<-- {color["red"]}Thinking a number....{color["clear"]} -->')
 print('{}-=-{}'.format(color['yellow'], color['clear']) * 15)
 
 gues = randint(0, 5)
@@ -30,7 +30,7 @@ sleep(0.5)
 system('clear')
 
 if number == gues:
-    print('{}OHHHHHHH NOOOO!!!YOUUU WINN!!!! IMPOSSIBELLEE!'.format(color['red']))
+    print('{}OHHHHHHH NOOOO!!!YOU WINN!!!! IMPOSSIBLLE!'.format(color['red']))
 else:
-    print('{0}I THINK IN {1} NOT IN {2}!!HAHAHAHA I WINN!!!'.format(color['blueandwhite'], gues, number))
+    print(f'{color["b_w"]}I THINK IN {gues} NOT IN {number}!!HAHAHA I WINN!!!')
 print('-' * 30)

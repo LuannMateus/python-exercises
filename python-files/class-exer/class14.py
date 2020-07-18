@@ -9,3 +9,5 @@ while n != 0:
         else:
             totI += 1
 print('- total of pair number: {}\n- Total of odd numbers: {}'.format(totP, totI))
+
+

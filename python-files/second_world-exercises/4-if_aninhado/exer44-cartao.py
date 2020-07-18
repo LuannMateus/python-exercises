@@ -31,9 +31,10 @@ elif code == 2:
         print('- Your dont have discount')
         print('- Price: {:.2f}$'.format(productPrice))
     elif part > 2:
+        interest = productPrice + (0.2 * productPrice)
         print('- {}x Parcel'.format(part))
         print('- Your have interest of 20% per month')
         print('- Price: {:.2f}$'.format(productPrice))
-        print('- Because of interest you will pay: {}$'.format(productPrice + (0.2 * productPrice)))
+        print(f'- Because of interest you will pay: {interest}$')
 else:
     print('INVALID CODE!! TRY AGAIN!!')

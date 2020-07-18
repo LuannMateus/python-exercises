@@ -12,10 +12,9 @@ print('\033[4;31m\t<-- Numbers Comparing... -->\033[m')
 print('\033[1;34m-=-' * 15)
 
 if n1 > n2:
-    print('\033[1;37mThe first number [{}] is biggest with second number [{}]'.format(n1, n2))
+    print(f'\033[1;37mThe number [{n1}] is biggest with number [{n2}]')
 elif n2 > n1:
-    print('\033[1;37mThe second number [{}] is biggest with first number [{}]'.format(n2, n1))
+    print(f'\033[1;37mThe number [{n2}] is biggest with number [{n1}]')
 else:
     print('\033[1;37mThere is no greater value, the two are equal!')
 print('-=-' * 15)
-  

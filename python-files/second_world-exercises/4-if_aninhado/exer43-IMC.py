@@ -18,7 +18,7 @@ elif IMC >= 18.5 and IMC <= 25:
 elif IMC > 25 and IMC <= 30:
     print('\033[1;33mBe careful! Are you Overweight!')
 elif IMC > 30 and IMC <= 40:
-    print('\033[31mALERT!! You are Obese!! Please you have to lose weight!')
+    print('\033[31mALERT!!You are Obese!!Please you have to lose weight!')
 else:
-    print('\033[1;31mDANGEROUS ZONE!! You have morbid obesity!! Call a doctor!')
-print('-' * 20) 
+    print('\033[1;31mDANGEROUS ZONE!!You have morbid obesity!!Call a doctor!')
+print('-' * 20)

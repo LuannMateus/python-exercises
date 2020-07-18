@@ -9,7 +9,7 @@ r3 = float(input('Enter with third reta : '))
 
 system('clear')
 
-print('=' * 24 )
+print('=' * 24)
 print('<-- What kind of triangle... -->')
 print('-' * 24)
 if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r2 + r1:

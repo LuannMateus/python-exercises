@@ -14,6 +14,6 @@ for c in range(0, 5):
         if weight < smallest:
             smallest = weight
 print('{}-{}='.format('\033[1;31m', '\033[1;37m') * 15)
-print('- Biggest weiht: {:.1f} Kg\n- Smallest weight: {:.1f} Kg'.format(biggest, smallest))
+print(f'- Biggest weiht: {biggest:.1f} Kg')
+print(f'- Smallest weight: {smallest:.1f} Kg')
 print('{}-{}='.format('\033[1;31m', '\033[1;37m') * 15)
-

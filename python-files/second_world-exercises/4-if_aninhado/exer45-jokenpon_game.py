@@ -54,19 +54,19 @@ print('{}Computer chosen: {}\n{}Player chosen: {}'.format(colors['red'], compute
 print('{}-{}='.format(colors['white'], colors['red']) * 20)
 
 if computer == 'ROCK' and player == 'SCISSORS' or computer == 'SCISSORS' and player == 'PAPER' or computer == 'PAPER' and player == 'ROCK':
-    print('{}-{}='.format(colors['white'], colors['red']) * 20)
-    print('\t  {}PLAYER LOSEE!!'.format(colors['red']))
-    print('{}-{}='.format(colors['white'], colors['red']) * 20)
-    print('{}Computer:HAHA, You cant beat me!!'.format(colors['red']))
-    print('{}Player:Fuck!Next time i will win!!'.format(colors['green']))
-    print('{}Computer:You could try HAHAH! You human bug!'.format(colors['red']))
+        print('{}-{}='.format(colors['white'], colors['red']) * 20)
+        print('\t  {}PLAYER LOSEE!!'.format(colors['red']))
+        print('{}-{}='.format(colors['white'], colors['red']) * 20)
+        print('{}Computer:HAHA, You cant beat me!!'.format(colors['red']))
+        print('{}Player:Fuck!Next time i will win!!'.format(colors['green']))
+        print(f'{colors["red"]}Computer:You could try HAHA! You human bug!')
 elif computer == player:
     print('{}-{}='.format(colors['white'], colors['red']) * 20)
     print('\t\t{}TIEEE!!'.format(colors['red']))
     print('{}-{}='.format(colors['white'], colors['red']) * 20)
-    print('{}Computer:Shit!! I am the computer, why am i not controlling the results of the algorithm???!!'.format(colors['red']))
-    print('{}Player:Fuck!Dont even think about it, next time i will win!!'.format(colors['green']))
-    print('{}Computer:You could try HAHAH! You human bug!'.format(colors['red']))
+    print(f'{colors["red"]}Computer:Shit!! How it still ties???!!')
+    print(f'{colors["green"]}Player:Fuck! Next time i will win!!')
+    print(f'{colors["red"]}Computer:You could try HAHA! You human bug!')
 else:
     print('{}-{}='.format(colors['white'], colors['red']) * 20)
     print('\t{}  PLAYER WINSS!! '.format(colors['green']))

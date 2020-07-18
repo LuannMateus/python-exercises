@@ -4,9 +4,9 @@ colors = {
     'white': '\033[1;37m'
 }
 
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20)
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 print('{:^40}'.format('FIBONACCI'))
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20) 
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 elements = int(input('How many elemenst will the fibonacci sequence have: '))
 t1 = 0
 t2 = 1

@@ -25,7 +25,7 @@ sleep(0.5)
 system('clear')
 
 if (0.3 * salary) <= parcel:
-    print('\033[1;31mSorry, the 30% limit has been exceeded! You funding is refused')
+    print('\033[1;31mThe 30% limit has been exceeded! You funding is refused')
 else:
     print('\033[1;32mCongratulation!! You funding has been accepted!')
 print('-=-' * 15)

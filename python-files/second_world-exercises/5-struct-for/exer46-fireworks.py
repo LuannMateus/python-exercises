@@ -8,4 +8,3 @@ for c in range(10, -1, -1):
     print('EEEEEEEEEE {}'.format(c))
     sleep(1)
 print('AEEEEEEEEEEEEEEEEEEEEEEEE POW POW POW')
-

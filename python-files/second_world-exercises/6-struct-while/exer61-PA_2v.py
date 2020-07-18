@@ -4,9 +4,9 @@ colors = {
     'white': '\033[1;37m'
 }
 
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20)
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 print('{:^40}'.format('PA - 2.0'))
-print('{}-{}='.format(colors['red'],colors['white'] ) * 20) 
+print('{}-{}='.format(colors['red'], colors['white']) * 20)
 first = int(input('Enter with the FIRST term: '))
 reason = int(input('Enter with the REASON: '))
 

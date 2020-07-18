@@ -9,4 +9,4 @@ for c in range(0, 6):
         s += number
         cont += 1
 print('{}-{}='.format('\033[1;31m', '\033[1;37m') * 15)
-print('Total sum of {} par values: {}'.format(cont,s))
+print('Total sum of {} par values: {}'.format(cont, s))
