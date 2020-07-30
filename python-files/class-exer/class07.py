@@ -15,4 +15,3 @@ print('<-- Resultado -->')
 print('---------------------')
 print('A soma será: {} \nA subtração será: {} \nA divisão será: {} \nA multi será: {}'.format(soma, sub, divisao, multi), end='')
 print('\nA divisão inteira será: {} \nApotênciação será: {}'.format(div_int, pot))
-
